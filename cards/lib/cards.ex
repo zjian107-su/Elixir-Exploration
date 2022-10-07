@@ -1,16 +1,10 @@
 defmodule Cards do
   @moduledoc """
-  Documentation for `Cards`.
+    Provides methods for creating and handling cards
   """
 
   @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Cards.hello()
-      :world
-
+    Returns a list of strings representing a deck of palying cards
   """
   def hello do
     :world
