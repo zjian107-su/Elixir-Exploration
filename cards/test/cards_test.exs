@@ -2,7 +2,11 @@ defmodule CardsTest do
   use ExUnit.Case
   doctest Cards
 
-  test "greets the world" do
-    assert Cards.hello() == :world
-  end
+  # Comment: Singular assertion test
+  # test "The Trueth" do
+  #   assert 1 + 1 == 3
+  # end
+
+
+
 end

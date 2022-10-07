@@ -19,17 +19,38 @@ defmodule Cards do
     suits = ["Spades", "Clubs", "hearts", "Diamonds"]
 
     for suit <- suits, value <- values do
-      "#{suit} of #{value}"
+      "#{value} of #{suit}"
     end
   end
 
   def shuffle(deck) do
     Enum.shuffle(deck)
   end
+@doc """
+  Determines whether a deck contains a given card
 
+  ## Examples
+
+      iex> deck = Cards.create_deck()
+      iex> Cards.contains?(deck, "Ace of Spades")
+      true
+"""
   def contains?(deck, card) do
     Enum.member?(deck, card)
   end
+
+  @doc """
+    Divedes a deck in a hand and the remainder of the deck.
+    The `hand_size` argument indicates how many cards should be in the hand.
+
+    ## Examples
+
+      iex> deck = Cards.create_deck
+      iex> {hand, _deck} = Cards.deal(deck, 1)
+      iex> hand
+      ["Ace of Spades"]
+
+  """
 
   def deal(deck, hand_size) do
     Enum.split(deck, hand_size)
