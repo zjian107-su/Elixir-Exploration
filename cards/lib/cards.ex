@@ -73,4 +73,11 @@ defmodule Cards do
     |> Cards.shuffle()
     |> Cards.deal(hand_size)
   end
+
+  def learn_map() do
+    colors = %{primary: "Red"}
+    IO.puts("The first item in colors is " <> colors.primary <> "!")
+    colors = Map.put(colors, :primary, "Blue")
+    IO.puts("After change, the first item in colors is now " <> colors.primary <> "!")
+  end
 end
