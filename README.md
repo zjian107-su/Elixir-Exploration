@@ -1,5 +1,9 @@
 # Elixir_Exploration
 
+There are currently two projects under the current repository. 
+1. cards - simulation of create deck, shuffle, deal cards and so on.
+2. identicon - similar to GitHub profile page icon generation algorithm. For example, `https://github.com/programmer12`
+
 ### Commands
 - under the elixir project folder: `iex -S mix`
 - dep for doc in <mix.exs>: `{:ex_doc, "~> 0.12"}`
@@ -41,4 +45,16 @@
 
 - If `[]` is the last argument, you can ignore them, or even without `()` for example: `query = User.find_where([where: user.age > 10, where: user.subscribed == true])` could be `query = User.find_where where: user.age > 10, where: user.subscribed == true` 
 
-### Others
+### Hash
+- Hash with ":md5"
+  ```
+  iex(42)> hash = :crypto.hash(:md5, "banana")
+  <<114, 179, 2, 191, 41, 122, 34, 138, 117, 115, 1, 35, 239, 239, 124, 65>>
+  iex(43)> Base.encode16(hash) 
+  "72B302BF297A228A75730123EFEF7C41"
+  iex(44)> :binary.bin_to_list(hash) 
+  [114, 179, 2, 191, 41, 122, 34, 138, 117, 115, 1, 35, 239, 239, 124, 65]
+  iex(45)> 
+  ```
+
+### Struct
