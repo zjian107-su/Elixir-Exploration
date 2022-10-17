@@ -1,8 +1,8 @@
 # Elixir_Exploration
 
 There are currently two projects under the current repository. 
-1. cards - simulation of create deck, shuffle, deal cards and so on.
-2. identicon - similar to GitHub profile page icon generation algorithm. For example, `https://github.com/programmer12`
+1. cards - simulation of creating a deck, shuffling, dealing cards and so on.
+2. identicon - similar to the GitHub profile page icon generation algorithm. For example, `https://github.com/programmer12`
 
 ### Commands
 - under the elixir project folder: `iex -S mix`
@@ -61,4 +61,3 @@ There are currently two projects under the current repository.
 
 ### Array
 - You can append a list of num with `++ [43, 12]`
-- 
