@@ -2,7 +2,7 @@
 
 There are currently two projects under the current repository. 
 1. cards - simulation of creating a deck, shuffling, dealing cards and so on.
-2. identicon - similar to the GitHub profile page icon generation algorithm. For example, `https://github.com/programmer12`
+2. identicon - similar to the GitHub profile page icon generation algorithm. For example, `https://github.com/programmer12`. You can find details in the [README_doc](./identicon/README.md)
 
 ### Commands
 - under the elixir project folder: `iex -S mix`
@@ -61,3 +61,6 @@ There are currently two projects under the current repository.
 
 ### Array
 - You can append a list of num with `++ [43, 12]`
+
+### Documentation 
+I created a whole document page for the Identicon project. It looks like this: <img width="839" alt="Screen Shot 2022-10-16 at 10 48 13 PM" src="https://user-images.githubusercontent.com/35544956/196079959-db064978-e6f9-4dd4-8817-e0cc0ce314ea.png">
