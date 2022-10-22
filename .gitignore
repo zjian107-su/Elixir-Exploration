@@ -26,13 +26,14 @@ Temporary Items
 .apdisk
 
 # Elixir projects
-/_build
+*/_build
 /cover
-/deps
-/doc
+*/deps
+*/doc
 /.fetch
 erl_crash.dump
 *.ez
 *.beam
 /config/*.secret.exs
 .elixir_ls/
+*/priv
