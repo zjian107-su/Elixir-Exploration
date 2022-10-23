@@ -8,11 +8,14 @@ defmodule AppWeb.GithubAuthController do
     IO.inspect(code, label: "code index/2:8")
     IO.puts("Hello, World! DANIEL!!!!!!!!!!")
     {:ok, profile} = ElixirAuthGithub.github_auth(code)
+    # {:error, profile} = ElixirAuthGithub.github_auth(code)
 
     IO.inspect(profile)
+    IO.puts(profile)
 
     conn
     |> put_view(AppWeb.PageView)
     |> render(:welcome, profile: profile)
+
   end
 end
