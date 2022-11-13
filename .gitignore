@@ -37,3 +37,5 @@ erl_crash.dump
 /config/*.secret.exs
 .elixir_ls/
 */priv
+app01
+fresher
