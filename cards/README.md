@@ -2,7 +2,9 @@
 
 Provides methods for creating and handling a deck of cards. For full documentation [click here](https://hexdocs.pm/playing_cards/Cards.html#content).
 
+### Table of Contents
 - [Cards](#cards)
+    - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
   - [Summary](#summary)
     - [Functions](#functions)

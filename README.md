@@ -3,8 +3,24 @@
 There are currently two projects under the current repository. 
 1. cards - simulation of creating a deck, shuffling, dealing cards and so on.
 2. identicon - similar to the GitHub profile page icon generation algorithm. For example, `https://github.com/programmer12`. You can find details in the [README_doc](./identicon/README.md)
+3. elixir_auth - authentication with GitHub, written in Phoenix and Elixir. However, I am stuck on a bug. In order to make this run, you have to create personal app token on GitHub to allow users to register in your PostgreSQL. Basically, you will need GitHub App Access Token, PostgreSQL local server, and installed Phoenix framework and elixir language. Due the version issue, you might get stuck into the bug I am having.
+4. google_but_not_github - this repo has not been tested yet.
+
+ 
+### Table of Contents
+- [Elixir_Exploration](#elixir_exploration)
+    - [Table of Contents](#table-of-contents)
+    - [Commands](#commands)
+    - [Test](#test)
+    - [Map](#map)
+    - [Hash](#hash)
+    - [Struct](#struct)
+    - [Array](#array)
+    - [Documentation](#documentation)
+
 
 ### Commands
+- running a project with mix:
 - under the elixir project folder: `iex -S mix`
 - dep for doc in <mix.exs>: `{:ex_doc, "~> 0.12"}`
 - write doc for defmodule --> `mix docs` --> `cd doc` --> `open index.html` for free generated doc page
