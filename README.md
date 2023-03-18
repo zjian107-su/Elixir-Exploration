@@ -7,8 +7,6 @@ This repository contains multiple projects under the Elixir_Exploration reposito
 1. **cards**: This project simulates the creation of a deck, shuffling, and dealing of cards.
 2. **identicon**: Similar to the GitHub profile page icon generation algorithm. Details can be found in the [README_doc](./identicon/README.md).
 3. **elixir_auth**: This project provides authentication with GitHub, written in Phoenix and Elixir. It requires a GitHub App Access Token, a local PostgreSQL server, and the installation of the Phoenix framework and Elixir language. Refer to the [README_doc](./elixir_auth/README.md) for more information. Please note that there might be version-related issues described in the documentation.
-4. **google_but_not_github**: This repository has not been tested yet.
-
 
 ## 🫐 Commands
 - Running a project with mix:
