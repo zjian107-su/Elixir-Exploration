@@ -2,12 +2,13 @@
 
 This repository contains multiple projects under the Elixir_Exploration repository.
 
-## 🍑 Projects
+# 🍑 Projects
 
 1. **cards**: This project simulates the creation of a deck, shuffling, and dealing of cards.
 2. **identicon**: Similar to the GitHub profile page icon generation algorithm. Details can be found in the [README_doc](./identicon/README.md).
 3. **elixir_auth**: This project provides authentication with GitHub, written in Phoenix and Elixir. It requires a GitHub App Access Token, a local PostgreSQL server, and the installation of the Phoenix framework and Elixir language. Refer to the [README_doc](./elixir_auth/README.md) for more information. Please note that there might be version-related issues described in the documentation.
 4. **google_but_not_github**: This repository has not been tested yet.
+
 
 ## 🫐 Commands
 - Running a project with mix:
@@ -16,7 +17,7 @@ This repository contains multiple projects under the Elixir_Exploration reposito
 - Generating documentation: Run `mix docs`, then navigate to the `doc` folder and open `index.html` for the generated documentation page.
 - Documentation testing: Use `## Examples` within the documentation section to perform testing. Running `elixir test` will execute the example code and compare the output to the last line of the example.
 
-## 🍅Test
+## 🍅 Test
 - There are two types of tests: `doctests` under `@doc` and `test` under `ExUnit.Case`.
 - Both types require running `mix test` in the project folder.
 - `refute` is the opposite of `assert`.
