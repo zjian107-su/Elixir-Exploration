@@ -18,7 +18,7 @@ This repository contains multiple projects under the Elixir_Exploration reposito
 - [Array](#array)
 - [Documentation](#documentation)
 
-## Commands
+✨## Commands
 - Running a project with mix:
   - Navigate to the elixir project folder: `iex -S mix`
 - Dependency for documentation in `<mix.exs>`: `{:ex_doc, "~> 0.12"}`
