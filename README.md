@@ -11,7 +11,7 @@ This repository contains multiple projects under the Elixir_Exploration reposito
 
 ## Table of Contents
 - [Commands](#commands)
-- [Test](#🍅 Test)
+- [Test](#🍅Test)
 - [Map](#map)
 - [Hash](#hash)
 - [Array](#array)
@@ -24,7 +24,7 @@ This repository contains multiple projects under the Elixir_Exploration reposito
 - Generating documentation: Run `mix docs`, then navigate to the `doc` folder and open `index.html` for the generated documentation page.
 - Documentation testing: Use `## Examples` within the documentation section to perform testing. Running `elixir test` will execute the example code and compare the output to the last line of the example.
 
-## 🍅 Test
+## 🍅Test
 - There are two types of tests: `doctests` under `@doc` and `test` under `ExUnit.Case`.
 - Both types require running `mix test` in the project folder.
 - `refute` is the opposite of `assert`.
