@@ -14,23 +14,22 @@ This repository contains multiple projects under the Elixir_Exploration reposito
 - [Test](#test)
 - [Map](#map)
 - [Hash](#hash)
-- [Struct](#struct)
 - [Array](#array)
 - [Documentation](#documentation)
 
-## ✨Commands
+## 🫐 Commands
 - Running a project with mix:
   - Navigate to the elixir project folder: `iex -S mix`
 - Dependency for documentation in `<mix.exs>`: `{:ex_doc, "~> 0.12"}`
 - Generating documentation: Run `mix docs`, then navigate to the `doc` folder and open `index.html` for the generated documentation page.
 - Documentation testing: Use `## Examples` within the documentation section to perform testing. Running `elixir test` will execute the example code and compare the output to the last line of the example.
 
-## Test
+## 🍅 Test
 - There are two types of tests: `doctests` under `@doc` and `test` under `ExUnit.Case`.
 - Both types require running `mix test` in the project folder.
 - `refute` is the opposite of `assert`.
 
-## Map
+## 🥥 Map
 - When accessing a created map, use an Atom key instead of a String key.
 - Changes to maps do not happen in-place but create a new map.
 - Example code for Map:
@@ -62,7 +61,7 @@ This repository contains multiple projects under the Elixir_Exploration reposito
 - If `[]` is the last argument, you can ignore them, or even without `()` for example: `query = User.find_where([where: user.age > 10, where: user.subscribed == true])` could be `query = User.find_where where: user.age > 10, where: user.subscribed == true`
 
 
-## Hash (continued)
+## 🥭 Hash (continued)
 
 - Hashing with `:md5`:
   ```elixir
@@ -75,10 +74,9 @@ This repository contains multiple projects under the Elixir_Exploration reposito
   iex(44)> :binary.bin_to_list(hash) 
   [114, 179, 2, 191, 41, 122, 34, 138, 117, 115, 1, 35, 239, 239, 124, 65]
 
-## Struct
 
-## Array
+## 🍐 Array
 - You can append a list of num with `++ [43, 12]`
 
-## Documentation 
+## 🍏 Documentation 
 I created a whole document page for the Identicon project. It looks like this: <img width="839" alt="Screen Shot 2022-10-16 at 10 48 13 PM" src="https://user-images.githubusercontent.com/35544956/196079959-db064978-e6f9-4dd4-8817-e0cc0ce314ea.png">
