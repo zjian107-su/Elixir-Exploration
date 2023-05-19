@@ -2,7 +2,7 @@
 
 This repository contains multiple projects under the Elixir_Exploration repository.
 
-## Projects
+## 🍑 Projects
 
 1. **cards**: This project simulates the creation of a deck, shuffling, and dealing of cards.
 2. **identicon**: Similar to the GitHub profile page icon generation algorithm. Details can be found in the [README_doc](./identicon/README.md).
@@ -11,7 +11,7 @@ This repository contains multiple projects under the Elixir_Exploration reposito
 
 ## Table of Contents
 - [Commands](#commands)
-- [Test](#test)
+- [Test](#🍅 Test)
 - [Map](#map)
 - [Hash](#hash)
 - [Array](#array)
